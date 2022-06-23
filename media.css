@@ -1,0 +1,71 @@
+@media only screen and (max-width: 767px) {
+    
+#lower_left {
+   display: none;
+  }
+  #upper_right {
+   display: none;
+  }
+  #lower_right {
+    display: none;
+  }
+  #upper_left{
+    display: none;
+  }
+  .hero h1 {
+    font-family: Rubik;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    /* text-align: center; */
+}
+.about-contant p {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2c2c2c;
+}
+.Engagement {
+    text-align: center;
+}
+.Engagement h2{
+    text-align: center;
+}
+.our_client:before {
+    display: none;
+  }
+  .hero_img img {
+    width: 100%;
+}
+.service-contant h2 {
+    font-family: Rubik;
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+}
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
